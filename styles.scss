@@ -2,7 +2,40 @@ $primary-color: #2b78e4;
 $nav-text: #fefefe;
 $login-button: #9fc5f8;
 $sign-up-button: #009e0f;
+$main-title: #eee;
 
 nav {
   background-color: $primary-color;
+}
+
+.cover-picture-container {
+  border:1px solid black;
+  background-image: url("images/hogwarts_small.jpg");
+}
+
+main {
+  margin-top:20px;
+
+  .main-content-title {
+    background-color: $main-title;
+    border:1px solid black;
+  }
+}
+
+.main-content {
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      line-height: 32px;
+    }
+  }
+  .content-info {
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .content-about {
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+  }
 }

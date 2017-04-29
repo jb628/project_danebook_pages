@@ -1,4 +1,26 @@
 nav {
   background-color: #2b78e4; }
 
+.cover-picture-container {
+  border: 1px solid black;
+  background-image: url("images/hogwarts_small.jpg"); }
+
+main {
+  margin-top: 20px; }
+  main .main-content-title {
+    background-color: #eee;
+    border: 1px solid black; }
+
+.main-content ul {
+  list-style-type: none;
+  padding-left: 0; }
+  .main-content ul li {
+    line-height: 32px; }
+.main-content .content-info {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black; }
+.main-content .content-about {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black; }
+
 /*# sourceMappingURL=styles.css.map */
