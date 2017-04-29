@@ -10,7 +10,38 @@ nav {
 
 .cover-picture-container {
   border:1px solid black;
-  background-image: url("images/hogwarts_small.jpg");
+  //background-image: url("images/hogwarts_small.jpg");
+  height:409px;
+  padding: 0;
+}
+
+img {
+  height: 409px;
+  width: 100%;
+}
+
+.middle-nav {
+  height:55px;
+  border:solid 1px black;
+  ul {
+    height:100%;
+  }
+  a{
+    display:inline-block;
+    height:100%;
+    border:1px solid black;
+    position: relative;
+    left:20%;
+    padding-top:16px;
+    padding-left:10px;
+    padding-right:10px;
+    width:105px;
+  }
+  li {
+
+    height:100%;
+  }
+
 }
 
 main {
@@ -33,9 +64,11 @@ main {
   .content-info {
     border-left:1px solid black;
     border-bottom: 1px solid black;
+    height:400px;
   }
   .content-about {
     border-right:1px solid black;
     border-bottom: 1px solid black;
+    height:400px;
   }
 }
