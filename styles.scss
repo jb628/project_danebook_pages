@@ -6,6 +6,33 @@ $main-title: #eee;
 
 nav {
   background-color: $primary-color;
+  color:$nav-text;
+  .input-group {
+    width:100%;
+    #nav-search-bar {
+      border-radius:3px;
+    }
+  }
+  img {
+    height:30px;
+    width:30px;
+    position: relative;
+    top: -5px;
+    left: -8px;
+    border-radius: 50%;
+  }
+  a {
+    color:$nav-text;
+    font-size: 34px;
+  }
+  p {
+    float: right;
+    position: relative;
+    font-size: 22px;
+    top: 8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 }
 
 .cover-picture-container {
@@ -50,6 +77,11 @@ main {
   .main-content-title {
     background-color: $main-title;
     border:1px solid black;
+    button {
+      position: absolute;
+      top:20px;
+      right:15px;
+    }
   }
 }
 
