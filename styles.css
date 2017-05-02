@@ -27,10 +27,9 @@ nav {
   border: 1px solid black;
   height: 409px;
   padding: 0; }
-
-img {
-  height: 409px;
-  width: 100%; }
+  .cover-picture-container img {
+    height: 409px;
+    width: 100%; }
 
 .middle-nav {
   height: 55px;
@@ -45,16 +44,55 @@ img {
     left: 20%;
     padding-top: 16px;
     padding-left: 10px;
-    padding-right: 10px;
-    width: 105px; }
+    width: 105px;
+    font-weight: 600;
+    color: #222; }
+  .middle-nav .active-middle-nav {
+    background-color: gainsboro; }
   .middle-nav li {
     height: 100%; }
+
+.middle-nav-container {
+  position: relative; }
+
+#profile-pic {
+  height: 150px;
+  width: 18%;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  left: 13px;
+  bottom: 13px; }
+  #profile-pic img {
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 5%; }
+
+#profile-name {
+  position: relative;
+  color: white;
+  top: -138px;
+  left: 189px; }
+
+#middle-edit-profile {
+  border: none;
+  position: absolute;
+  left: 86%;
+  color: #07f;
+  text-decoration: underline;
+  bottom: 0px; }
 
 main {
   margin-top: 20px; }
   main .main-content-title {
     background-color: #eee;
     border: 1px solid black; }
+    main .main-content-title h1 {
+      top: -3px;
+      position: relative;
+      left: 46%; }
     main .main-content-title button {
       position: absolute;
       top: 20px;
